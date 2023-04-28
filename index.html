@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Gautam Pandit</a>
+                
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        
+                        
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon' ></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#project" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon' ></i>Projects
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon' ></i>Certificate
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/Gautam.png" alt="" class="home__img">
+
+                                <h1 class="home__title">Gautam <b>Pandit</b></h1>
+                                <h3 class="home__profession">Student [Btech. 3rd year] </h3>
+
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a download="" href="assets/pdf/Gautam pandit Resume.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon'></i> Green Park , New Delhi - 49
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> Gautamp63614.gp@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i> 8743050136 , 7982437048
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                        
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/gautam-pandit-286477232/" target="_target" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon'></i> gautam-pandit-286477232
+                            </a>
+                            <a href="https://github.com/GautamPandit636" target="_target" class="social__link">
+                                <i class="ri-github-fill social__icon"></i> GautamPandit636
+                            </a>
+                            <a href="https://wa.me/+917982437048" target="_target" class="social__link">
+                                <i class='bx bxl-whatsapp social__icon'></i> +917291850763
+                            </a>
+                            <!-- <a href="https://www.instagram.com/sg._.gautam/" target="_target" class="social__link">
+                                <i class='bx bxl-instagram social__icon' ></i> sg._.gautam
+                            </a> -->
+                            
+                        </div>
+                    </section>
+
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Interests</h2>  
+  
+                        <div class="interests__container bd-grid">
+                          <div class="interests__content">
+                              <i class="ri-gamepad-line interests__icon"></i>
+                              <span class="interests__name">Video<br>Games</span>
+                          </div>
+  
+                          <div class="interests__content">
+                              <i class="ri-code-s-slash-line interests__icon"></i>
+                              <span class="interests__name">coding</span>
+                          </div>
+  
+                          <div class="interests__content">
+                              <i class="ri-book-read-line interests__icon"></i>
+                              <span class="interests__name">Read</span>
+                          </div>
+                          <div class="interests__content">
+                              <i class="ri-artboard-line interests__icon"></i>
+                              <span class="interests__name">Art</span>
+                          </div>
+                        </div>
+                      </section>
+
+
+                </div>
+
+                <div class="resume__right">
+
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">BTech. (IPU) <span class="education__year">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2020 - 2024</span></h3>
+                                    <span class="education__studies">Guru Tegh Bahadur Institute of Technology</span>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">12th (CBSE)<span class="education__year">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2018 - 2020</span></h3>
+                                    <span class="education__studies">St. Paul's School , Hauz Khas</span>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">10th (CBSE) <span class="education__year">Passing year : 2018</span></h3>
+                                    <span class="education__studies">DAV Model School , Yusuf Sarai</span>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Html
+                                </li>
+                                
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> CSS
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Javascript
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Node Js
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Bootstrap
+                                </li>
+                                
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Jquery
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> React
+                                </li>
+                               
+
+                            </ul>
+                            
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> C++
+                                </li>
+                                
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> JAVA
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> DSA
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!--========== PROJECT ==========-->
+                    <section class="project section" id="project">
+                        <h2 class="section-title">Projects</h2>
+
+                        <div class="project__container bd-grid">
+                            <div class="project__content">
+                                <div class="project__time">
+                                    <span class="project__rounder"></span>
+                                    <span class="project__line"></span>
+                                </div>
+
+                                <div class="project__data bd-grid">
+                                    <h3 class="project__title link">Resume Website <a href="" target="_target"><i class="ri-link"></i></a></h3>
+                                    <span class="project__company">[Using HTML CSS JavaScript]</span>
+                                    <p class="project__description">
+                                        A Responsive resume cv website with Light dark mode and PDF export.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="project__content">
+                                <div class="project__time">
+                                    <span class="project__rounder"></span>
+                                    <span class="project__line"></span>
+                                </div>
+
+                                <div class="project__data bd-grid">
+                                    <h3 class="project__title">NewsLetter Signup Website <a href="https://newsletter-signup-cl9x.onrender.com" target="_target"><i class="ri-link"></i></a></h3>
+                                    <span class="project__company">[using bootstrap and node JS]</span>
+                                    <p class="project__description">
+                                        A Newsletter signup website to receive name and email of our subscribers.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="project__content">
+                                <div class="project__time">
+                                    <span class="project__rounder"></span>
+                                    <!-- <span class="project__line"></span> -->
+                                </div>
+
+                                <div class="project__data bd-grid">
+                                    <h3 class="project__title">Simon Game website <a href="https://gautampandit636.github.io/Simon-Game/" target="_blank"><i class="ri-link"></i></a></h3>
+                                    <span class="project__company">[using HTML CSS and jquery]</span>
+                                    <p class="project__description">
+                                        A memory game in which players must repeat random sequences of<br> lights by pressing the colored pads in the correct order.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Web Development Course (Udemy) </h3>
+                                <p class="certificate__description">
+                                    Link
+                                </p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Data Structures and algorithm (Udemy)</h3>
+                                <p class="certificate__description">
+                                    Link
+                                </p>
+                            </div>
+
+                            
+                        </div>
+                    </section>
+                    
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
